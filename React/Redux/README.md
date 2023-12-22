@@ -2,4 +2,4 @@
 
 whole global state is stored in a single store.
 
-![redux_basics](images/redux_basics.png)
+<img src=images/redux_basics.png width=70% />
