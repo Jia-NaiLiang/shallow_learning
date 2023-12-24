@@ -1,6 +1,6 @@
 # MongoDB v7
 
-<img src=images/mongodb_basics.png width=500 />
+<img src=images/mongodb_basics.png />
 
 ## document & collection
 
