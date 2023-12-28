@@ -20,6 +20,7 @@ console.log(store.getState());
 
 store.subscribe(() => console.log("Updated successfully."));
 
+// 3.dispatch action
 store.dispatch({ type: "counter/increment" });
 console.log(store.getState());
 store.dispatch({ type: "counter/increment" });
