@@ -1,17 +1,12 @@
+import Toggle from "./lifecycle/Toggle";
+import UseState from "./usehooks/UseState";
+
 function App() {
   return (
     <div>
-      <TodoListItem>Item</TodoListItem>
+      <UseState />
+      <Toggle />
     </div>
-  );
-}
-
-function TodoListItem({ children, isComplete }) {
-  return (
-    <>
-      <label htmlFor={children}>{children}</label>
-      <input type="checkbox" name={children} checked={isComplete} />
-    </>
   );
 }
 
